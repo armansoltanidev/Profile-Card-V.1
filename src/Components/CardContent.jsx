@@ -25,9 +25,9 @@ export default function CardContent() {
       <div className="chip-wrapper">
         <Chip skill="HTML+CSS" emoji={"😊"} color="yellow" />
         <Chip skill="JavaScript" emoji={"😍"} color="blue" text="white" />
-        <Chip skill="HTML+CSS" emoji={"😊"} color="red" text="white" />
-        <Chip skill="HTML+CSS" emoji={"😊"} color="orange" />
-        <Chip skill="HTML+CSS" emoji={"😊"} color="green" text="white" />
+        <Chip skill="React" emoji={"🚀"} color="red" text="white" />
+        <Chip skill="Svelte" emoji={"😒"} color="orange" text="white" />
+        <Chip skill="WebDesign" emoji={"👌"} color="green" text="white" />
       </div>
     </div>
   );
