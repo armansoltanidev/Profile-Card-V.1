@@ -1,0 +1,73 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.card {
+  border: 4px solid #000;
+  width: 420px;
+}
+.avatar {
+  max-width: 100%;
+}
+
+.chip {
+  margin: 2px 4px;
+  border-radius: 8px;
+  border: 2px solid #000;
+  padding: 2px;
+}
+.chip-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 8px 16px;
+}
